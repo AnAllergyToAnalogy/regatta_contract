@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29cde918-3c92-43bc-9f47-18f095ef2b0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/Regatta.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Regatta.sol" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contracts/Regatta.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="51" column="17" selection-start-line="49" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="408">
+              <caret line="69" column="35" selection-end-line="438" selection-end-column="1" />
               <folding>
                 <element signature="n#!!block;n#enter_next_race#0;n#Regatta#0" />
                 <element signature="n#!!block;n#collect_winnings#0;n#Regatta#0" />
@@ -65,7 +64,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1944" />
@@ -130,15 +129,15 @@
       <option name="presentableId" value="Default" />
       <updated>1557755739519</updated>
       <workItem from="1557755740854" duration="1686000" />
-      <workItem from="1557787267832" duration="592000" />
+      <workItem from="1557787267832" duration="1029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2278000" />
+    <option name="totallyTimeSpent" value="2715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
@@ -185,8 +184,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contracts/Regatta.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="51" column="17" selection-start-line="49" selection-end-line="51" selection-end-column="17" />
+        <state relative-caret-position="408">
+          <caret line="69" column="35" selection-end-line="438" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#enter_next_race#0;n#Regatta#0" />
             <element signature="n#!!block;n#collect_winnings#0;n#Regatta#0" />

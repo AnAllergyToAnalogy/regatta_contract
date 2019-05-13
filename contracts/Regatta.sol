@@ -67,7 +67,7 @@ contract Regatta {
     }
 
     //Added set price function in case ETH price changes make it too expensive
-    function set_PRICE_CLASS(uint class, uint PRICE){
+    function set_PRICE_CLASS(uint class, uint PRICE) external{
         require(msg.sender == blackbeard,"permission");
         require(class < 3,"class");
         PRICE_CLASS[class] = PRICE;
