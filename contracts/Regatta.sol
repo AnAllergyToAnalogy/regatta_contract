@@ -47,9 +47,9 @@ contract Regatta {
     uint constant PRICE_REPELLENT = 10; //%
 
     uint[3] PRICE_CLASS = [
-    20 finney,
-    70 finney,
-    120 finney
+    5 finney,
+    15 finney,
+    30 finney
     ];
 
     uint[3] MULTIPLIER_CLASS = [
@@ -64,6 +64,13 @@ contract Regatta {
 
     constructor() public{
         blackbeard = msg.sender;
+    }
+
+    //Added set price function in case ETH price changes make it too expensive
+    function set_PRICE_CLASS(uint class, uint PRICE){
+        require(msg.sender == blackbeard,"permission");
+        require(class < 3,"class");
+        PRICE_CLASS[class] = PRICE;
     }
 
     function calculate_fee(uint8 class, bool repellent) internal view returns(uint){
